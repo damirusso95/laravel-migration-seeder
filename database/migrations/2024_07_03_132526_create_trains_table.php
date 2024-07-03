@@ -25,11 +25,7 @@ return new class extends Migration
             $table->integer("numero_di_carrozze");
             $table->decimal("costo_biglietto", 8, 2); 
             $table->boolean("in_orario");
-            $table->boolean("cancellato");
-
-
-
-            
+            $table->boolean("cancellato");          
 
             $table->timestamps();
         });
